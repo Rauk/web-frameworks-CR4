@@ -92,7 +92,8 @@
                     <img src="img/logo.png" class="img-responsive">
                 </div>
                 <div class="col-xs-12 col-sm-2">
-                    <a class="btn btn-warning alignButtonReserveTable" a href="#" role="button" >
+                    <a class="btn btn-warning btn-block alignButtonReserveTable" data-toggle="tooltip" title="Or Call us at +852 12345678"
+                     data-placement="bottom" href="#" role="button" >
                         Reserve Table
                     </a>
                 </div>
@@ -230,7 +231,11 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
+    <script>
+        $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+         });
+    </script>
 
         <span id="copylAddress" style="display: inline-block; position: absolute; left: -9999em;"></span><span id="buffer-extension-hover-button" style="display: none;position: absolute;z-index: 8675309;width: 100px;height: 25px;background-image: url(chrome-extension://noojglkidnpfjbincgijbaiedldjfbhh/data/shared/img/buffer-hover-icon@2x.png);background-size: 100px 25px;opacity: 0.9;cursor: pointer;"></span>
     </body>
