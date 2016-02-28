@@ -87,4 +87,9 @@ body{
     top: 0;
     left: 0;
     min-height: 300px;
-}s
+}
+#carouselButtons {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+}
